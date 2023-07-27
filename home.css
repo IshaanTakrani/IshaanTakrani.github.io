@@ -1,0 +1,118 @@
+
+
+.selection_bar{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: right;
+
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+
+.selection_bar_button{
+
+  background-color: #d800b800;
+  color: white;
+  font-family: monospace;
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px; */
+  padding: 10px;
+  margin: 0px;
+  width: 150px;
+  height: 60px;
+  font-size: 17px;
+  border-style: none;
+  transition: 0.15s;
+}
+
+
+.selection_bar_button:hover{
+  background-color: #D800B7;
+}
+
+.selection_bar_button:active{
+  opacity: 0.8;
+}
+
+
+.atag{
+  color: black;
+}
+
+
+.home_page_text{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  left: 30px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+
+.big_name{
+  color: white;
+  font-family: monospace;
+
+  border-color: white;
+  font-size: 60px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+
+.body_text{
+  color: white;
+  font-family: monospace;
+
+  font-size: 15px;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 0px;
+  flex: 1;
+  max-width: 600px;
+}
+
+
+#homePage{
+  background-color: rgb(0, 0, 0);
+  padding-top: 85px;
+  background-image: url(site_images/homebgoverlay4.png);
+}
+
+
+/*
+  Below are content page exclusive css elements.
+  They are only found on pages other than the home page.
+*/
+
+
+/* .content_page_text{
+  width: 750px;
+
+} */
+
+.title{
+  color: white;
+  font-family: monospace;
+
+  border-color: white;
+  font-size: 60px;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+
+#contentPage{
+  background-color: rgb(0, 0, 0);
+  padding-top: 85px;
+  background-image: url(site_images/homebgoverlay2.png);
+}
