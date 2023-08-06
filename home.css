@@ -137,8 +137,7 @@
   transition: 0.3s;
 }
 
-
-.section-info-container-hyperlink{
+.section-info-container-hyperlink {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -154,7 +153,6 @@
   transition: 0.3s;
   color: rgba(255, 255, 255, 0);
 }
-
 
 .section-info-container-hyperlink:hover {
   transform: translate(0px, -5px);
@@ -289,9 +287,7 @@
 
 /* Below: Arduino Project Page */
 
-
-
-.atag-projects{
+.atag-projects {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -305,15 +301,9 @@
   border-radius: 5px;
   min-height: 400px;
   transition: 0.3s;
-
 }
 
-
-
-
-
-
-.double-image-container{
+.double-image-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -325,37 +315,27 @@
   background-color: #7a0068;
   box-shadow: 10px 10px 0px #8d0078a1;
   border-radius: 5px;
-
 }
 
-
-
-.double-image-container img{
-  
-
+.double-image-container img {
   flex: 1;
   max-width: 600px;
-
 }
-
 
 .scroller {
   height: 74px; /* Set the height according to your needs */
-  overflow: auto; 
+  overflow: auto;
 }
 
-
-.atag-project-content{
+.atag-project-content {
   color: blue;
   transition: 0.2s;
 }
 
-
-.atag-project-content:hover{
+.atag-project-content:hover {
   color: rgb(91, 115, 254);
   cursor: pointer;
 }
-
 
 #arduinoProjectPage {
   background-color: rgb(0, 0, 0);
