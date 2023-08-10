@@ -55,56 +55,58 @@
   color: black;
 }
 
-.topbg{
+.home-page-info {
+  /* position: absolute; */
+  margin-top: 125px;
   width: 100%;
-  margin-bottom: 38px;
 }
 
-.home-page-info{
-
-  position: relative;
-  margin-top: -75px;
-
-}
-
-.home-page-info img{
+.home-page-info img {
   width: 100%;
   /* height: auto;
   display: block; */
 }
 
-
-.name-title{
-  position: absolute;
-  top: 75px;
+.name-title {
   font-size: 4em;
   padding: 20px;
   margin: 20px;
+  margin-bottom: 0px;
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #29769d;
-  /* border-radius: 50px; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.name-text{
-  position: absolute;
-  top: 275px;
+.name-text {
   font-size: 1em;
   padding: 20px;
   margin: 20px;
+  margin-top: 0px;
   margin-left: 27px;
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   max-width: 500px;
-    background-color: #29769d;
-  /* border-radius: 500px; */
 }
 
+.home-page-bg {
+  background-color: red;
+  border-color: green;
+  border-width: 3px;
+}
 
+/* Aboutme */
+
+.aboutme {
+  background-color: white;
+}
 
 #homePage {
   background-color: #29769d;
   padding-top: 75px;
+  /* margin-top: 75px; */
   margin: 0px;
-  height: 3000px;
+  height: 2000px;
+}
+
+#aboutme {
+  background-color: white;
 }
