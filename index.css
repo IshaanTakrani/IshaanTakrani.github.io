@@ -74,6 +74,16 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.title {
+  font-size: 4em;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: 75px;
+  color: rgb(255, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .name-text {
   font-size: 1em;
   padding: 20px;
@@ -97,16 +107,6 @@
   position: absolute;
   top: 100%;
   background-color: white;
-}
-
-.title {
-  font-size: 4em;
-  padding: 20px;
-  margin: 20px;
-  margin-bottom: 0px;
-  margin-top: 75px;
-  color: rgb(255, 0, 0);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* projects */
