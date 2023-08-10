@@ -56,15 +56,13 @@
 }
 
 .home-page-info {
-  /* position: absolute; */
-  margin-top: 125px;
+  position: absolute;
+  top: 25%;
   width: 100%;
 }
 
 .home-page-info img {
   width: 100%;
-  /* height: auto;
-  display: block; */
 }
 
 .name-title {
@@ -96,6 +94,8 @@
 /* Aboutme */
 
 .aboutme {
+  position: absolute;
+  top: 100%;
   background-color: white;
 }
 
