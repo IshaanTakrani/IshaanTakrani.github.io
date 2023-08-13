@@ -56,13 +56,9 @@
 }
 
 .home-page-info {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-}
-
-.home-page-info img {
-  width: 100%;
+  position: relative;
+  height: 100vh;
+  top: 13vh;
 }
 
 .name-title {
@@ -77,15 +73,15 @@
 .title {
   font-size: 4em;
   padding: 20px;
+  padding-top: 100px;
   margin: 20px;
   margin-bottom: 0px;
-  margin-top: 75px;
   color: rgb(255, 0, 0);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .name-text {
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 20px;
   margin: 20px;
   margin-top: 0px;
@@ -95,25 +91,69 @@
   max-width: 500px;
 }
 
-.home-page-bg {
-  background-color: red;
-  border-color: green;
-  border-width: 3px;
-}
-
 /* Aboutme */
 
 .aboutme {
-  position: absolute;
-  top: 100%;
+  position: relative;
+  height: 100vh;
   background-color: white;
+}
+
+.body-text {
+  font-size: 1.2em;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 0px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+  margin: 40px;
+  padding: 20px;
+  background-color: #29769dbc;
+  width: 90%;
+  border-radius: 50px;
+  min-height: 265px;
+  /* box-shadow: 5px 5px 10px #29769d7e; */
+}
+
+.aboutme-section img {
+  flex: 1;
+  max-width: 10%;
+  margin: 40px;
+  padding: 20px;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(9%) saturate(1035%)
+    hue-rotate(223deg) brightness(116%) contrast(100%);
+}
+
+.aboutme-section p {
+  flex: 1;
+  font-size: 1.2em;
+  color: #f8fdff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: 20px;
+  padding: 20px;
 }
 
 /* projects */
 
 .projects {
-  position: absolute;
-  top: 200%;
+  position: relative;
+  height: 100vh;
   background-color: white;
 }
 

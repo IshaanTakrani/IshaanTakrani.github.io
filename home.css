@@ -119,6 +119,10 @@
   padding-bottom: 25px;
   padding-top: 5px;
   margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-info-container {
@@ -134,6 +138,7 @@
   box-shadow: 10px 10px 0px #8d0078a1;
   border-radius: 5px;
   transition: 0.3s;
+  width: 150vh;
 }
 
 .section-info-container-hyperlink {
